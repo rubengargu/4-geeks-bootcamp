@@ -1,0 +1,45 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 523px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+.postal{
+    background-color: white;
+    
+    padding: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    width: 50px;
+    height: 60px;
+}
+#body{
+    display: flex;
+}
+#form{
+    padding-top:20px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+button{
+    background-color: grey;
+}

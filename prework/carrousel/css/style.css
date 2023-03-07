@@ -1,0 +1,67 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* CSS of header */
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+/* CSS of Main */
+main{
+    background-color: #EBEDEF; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* CSS de div superior y contenido */
+.superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5px;
+    padding-right: 5px;
+    
+}
+span{
+    color: #D5D8DC ;
+}
+/* CSS de fotos y div que las tiene */
+.photo{
+    width: 50%;
+    background-color: white;
+    margin-top: 40px;
+}
+img{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: white;
+}
+/* CSS de texto. Además, #breathecode esta puesto de 4 maneras diferentes para practicar 4 maneras diferentes de hacerlo */
+.texto{
+    margin-top: 35px;
+    border-top: solid 0.5px #D5D8DC ;
+}
+/* En el primer caso he utilizado la etiqueta de HTML strong, por lo tanto, no he de hacer nada en el CSS */
+/* Le he puesto display flex a .texto para poder poner todos los elementos al lado de sus p */
+.texto{
+    display: flex;
+    align-items: center;
+}
+/* Aquí tenemos el segundo cuadro, en este caso he seleccionado el pseudoselector que se aplica en caso de elementos hermanos */
+p + p{
+    font-weight: bold;
+}
+/* En este caso lo que he hecho es aplicar el pseudo selector last-child, para, que como span es su último hijo, se le aplique a él */
+.texto :last-child{
+    font-weight: bold;
+    color: black;
+    
+}
+/* En este caso ha sido algo sencillo. Simplemente he puesto otro div y, gracias a haber puesto ya display flex en .text, se ha aplicado todo a la perfección. Algo que he tenido que recordar es el concepto herencia y es que, en los casos 3 y 4, al haber puesto un span en lugar de p, HEREDABA el color gris de la parte de arriba, asi que he tenido que poner el color negro. */
+.brea{
+    font-weight: bold;
+    color: black;
+}
