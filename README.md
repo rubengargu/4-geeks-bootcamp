@@ -8,3 +8,5 @@ The first "problem" than I found here is than I have to search my images and I d
 When I saw the exercise, I noticed in the text with #. And remember the pseudoselectors in CSS, so I take me as a challenge, select the 4 #, in 4 differents ways, and I did it!
 Another thing than I have made in this project is the comments, to explain and make more clear the code, than I think than is important.
 With this two projects I end the part of HTML and CSS. The next is JS!
+<h3>Excuse generator</h3>
+With this excuse generator, I end my mandatory part of the prework! It was so difficult because the exercises aren't the typical, and I think than the Bootcamp will be so interesting and I will learn a lot!
