@@ -1,0 +1,17 @@
+.dropdown-menu-right {
+    margin-top: 100px;
+    }
+    h1{
+        display: inline-block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .ico{
+        background-color:#EBF5FB;
+        padding:10px;
+        border-radius: 25%;
+    }
