@@ -1,0 +1,2 @@
+<H1>Dialogo</h1>
+<p>Este es un pequeño ejercicio que nació a raiz de mi idea de mejorar el proyecto generador de excusas que he hecho para el Bootcamp. Busqué como dividir esas excusas de tal manera, que cuando el usuario hiciese click, viese una parte. Sin embargo, para poder sentirme más libre, decidí hacer un diálogo entre 2 personas, ya que era algo bastante similar 
